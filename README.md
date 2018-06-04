@@ -1,3 +1,5 @@
+Fixed in [#13344](https://github.com/spring-projects/spring-boot/pull/13344)
+
 ## Issue
 In spring-boot 2x `Maps` in `@ConfigurationProperties` are not being updated from the **second** `EnvironmentChangeEvent` onwards. i.e. Following test failed in spring-boot 2x, but passed in spring-boot 1x
 ```
